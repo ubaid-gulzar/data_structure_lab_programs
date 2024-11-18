@@ -29,7 +29,7 @@ type *sort1(type *head){
          if(ptr->data==temp->data){
             prev->next=ptr->next;
             ptr->next=NULL;
-            if(prev->next==NULL){
+            if(prev->next==NULL){  //when there is only two nodes with same value 
                 return head; 
             }
             ptr=prev;
