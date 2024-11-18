@@ -1,4 +1,4 @@
-//In singly linked list reove all duplicate(nodes with duplicate values)from the given list.
+//In singly linked list remove all duplicate(nodes with duplicate values)from the given list.
 //Input: 1->2->3->2->1->5->5->NULL;
 //Output: 1->2->3->5->NULL
 #include<stdio.h>
